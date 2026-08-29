@@ -1,0 +1,60 @@
+# Dependencies
+node_modules/
+*/node_modules/
+
+# Environment & Local Secrets
+.env
+.env.*
+!.env.example
+!*/.env.example
+*.local
+*.pem
+*.key
+*.jks
+*.keystore
+*.p8
+*.p12
+*.mobileprovision
+
+# Build Outputs & Generated Files
+dist/
+dist-ssr/
+web-build/
+.expo/
+.vercel/
+.turbo/
+build/
+*/build/
+.kotlin/
+.gradle/
+*/.gradle/
+
+# Generated Native Folders (managed by Expo prebuild / EAS)
+mobile/android/
+mobile/ios/
+
+# Large Binary Files & Packages
+*.apk
+*.aab
+
+# Logs & Diagnostics
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# IDE & Editor Configurations
+.idea/
+.vscode/*
+!.vscode/extensions.json
+.opencode/
+.claude/
+.DS_Store
+Thumbs.db
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?

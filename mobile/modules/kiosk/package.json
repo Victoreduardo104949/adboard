@@ -1,0 +1,8 @@
+{
+  "name": "expo-kiosk",
+  "version": "1.0.0",
+  "description": "Kiosk mode (Android lock task) for the signage player",
+  "main": "index.ts",
+  "types": "index.ts",
+  "private": true
+}

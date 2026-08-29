@@ -1,0 +1,16 @@
+# Never send local secrets or build output to EAS Build servers.
+# Precedence: this file overrides .gitignore when present.
+
+node_modules/
+.env
+.env*.local
+.expo/
+dist/
+web-build/
+android/
+ios/
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision

@@ -1,0 +1,47 @@
+{
+  "expo": {
+    "name": "Signage Player",
+    "slug": "signage-player",
+    "version": "1.0.0",
+    "orientation": "landscape",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.signage24h.player"
+    },
+    "android": {
+      "package": "com.signage24h.player",
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "backgroundColor": "#E6F4FE",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-video",
+      "expo-image"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "9f4d1e55-2b89-4e43-aaa7-06eaafae8a81"
+      }
+    },
+    "owner": "victor1049",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/9f4d1e55-2b89-4e43-aaa7-06eaafae8a81",
+      "requestHeaders": {
+        "expo-channel-name": "production"
+      }
+    }
+  }
+}

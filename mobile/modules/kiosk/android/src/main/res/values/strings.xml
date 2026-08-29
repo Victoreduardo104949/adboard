@@ -1,0 +1,4 @@
+<resources>
+  <string name="device_admin_label">Signage Player Admin</string>
+  <string name="device_admin_description">Permite bloquear o app em modo quiosque (kiosk)</string>
+</resources>
