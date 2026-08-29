@@ -84,7 +84,7 @@ O ecossistema é composto por três pilares integrados:
 ### 📱 Aplicativo Mobile (Player para Tablets)
 
 <p align="center">
-  <img src="docs/screenshots/08-tablet-player.png" alt="Player em Reprodução Contínua 24/7" width="100%" />
+  <img src="https://raw.githubusercontent.com/Victoreduardo104949/adboard/main/docs/screenshots/08-tablet-player.png" alt="Player em Reprodução Contínua 24/7" width="100%" />
 </p>
 
 | Tela / Componente | Descrição |
@@ -94,23 +94,24 @@ O ecossistema é composto por três pilares integrados:
 | **Hotspot de Segurança Oculto** | Toque rápido de 5 vezes no canto inferior direito ou pressione o botão Voltar do hardware para solicitar o PIN de saída. |
 | **Diálogo de Desbloqueio (`PinDialog.tsx`)** | Teclado numérico na tela para digitação do PIN de segurança (6 dígitos) com validação de hash SHA-256 local antes de liberar a saída do app. |
 
-<details>
-  <summary><b>📸 Clique para ver as capturas do App Mobile no Tablet</b></summary>
-  <br>
+#### 📸 Telas do App Mobile no Tablet
 
-  <p><b>1. Tela de Pareamento e Registro com QR Code:</b></p>
-  <img src="docs/screenshots/07-tablet-pareamento.png" alt="Tela de Pareamento Tablet" width="100%" />
+<p align="center">
+  <b>1. Tela de Pareamento e Registro com QR Code:</b><br />
+  <img src="https://raw.githubusercontent.com/Victoreduardo104949/adboard/main/docs/screenshots/07-tablet-pareamento.png" alt="Tela de Pareamento Tablet" width="100%" />
+</p>
 
-  <p><b>2. Teclado de Desbloqueio e Saída do Modo Quiosque (PIN):</b></p>
-  <img src="docs/screenshots/09-tablet-pin-dialog.png" alt="PIN Dialog Modo Quiosque" width="100%" />
-</details>
+<p align="center">
+  <b>2. Teclado de Desbloqueio e Saída do Modo Quiosque (PIN):</b><br />
+  <img src="https://raw.githubusercontent.com/Victoreduardo104949/adboard/main/docs/screenshots/09-tablet-pin-dialog.png" alt="PIN Dialog Modo Quiosque" width="100%" />
+</p>
 
 ---
 
 ### 💻 Painel Administrativo Web
 
 <p align="center">
-  <img src="docs/screenshots/02-conteudos.png" alt="Gestão de Conteúdos e Playlist" width="100%" />
+  <img src="https://raw.githubusercontent.com/Victoreduardo104949/adboard/main/docs/screenshots/02-conteudos.png" alt="Gestão de Conteúdos e Playlist" width="100%" />
 </p>
 
 | Tela / Módulo | Funcionalidades |
@@ -121,25 +122,32 @@ O ecossistema é composto por três pilares integrados:
 | **Telas (`ScreenManager.tsx`)** | • Registro de novos tablets inserindo o código de 6 caracteres gerado pelo app.<br>• Atribuição de nome amigável ao dispositivo (ex: *Tablet Carro 01*).<br>• Vinculação da tela a um Grupo específico.<br>• Monitoramento em tempo real do status **Online/Offline** baseado no último heartbeat recebido. |
 | **Configurações (`SettingsPanel.tsx`)** | Definição e alteração do PIN de segurança de 6 dígitos para saída do modo quiosque nos tablets (armazenado apenas na forma de hash criptográfico). |
 
-<details>
-  <summary><b>📸 Clique para ver todas as telas do Painel Web Admin</b></summary>
-  <br>
+#### 📸 Telas do Painel Web Admin
 
-  <p><b>1. Formulário de Cadastro e Upload de Novo Anúncio:</b></p>
-  <img src="docs/screenshots/03-novo-anuncio.png" alt="Formulário de Novo Anúncio" width="100%" />
+<p align="center">
+  <b>1. Formulário de Cadastro e Upload de Novo Anúncio:</b><br />
+  <img src="https://raw.githubusercontent.com/Victoreduardo104949/adboard/main/docs/screenshots/03-novo-anuncio.png" alt="Formulário de Novo Anúncio" width="100%" />
+</p>
 
-  <p><b>2. Gerenciamento e Monitoramento de Telas (Tablets):</b></p>
-  <img src="docs/screenshots/05-telas.png" alt="Gerenciamento de Telas" width="100%" />
+<p align="center">
+  <b>2. Gerenciamento e Monitoramento de Telas (Tablets):</b><br />
+  <img src="https://raw.githubusercontent.com/Victoreduardo104949/adboard/main/docs/screenshots/05-telas.png" alt="Gerenciamento de Telas" width="100%" />
+</p>
 
-  <p><b>3. Gerenciamento de Grupos (Segmentação de Frota/Local):</b></p>
-  <img src="docs/screenshots/04-grupos.png" alt="Grupos de Telas" width="100%" />
+<p align="center">
+  <b>3. Gerenciamento de Grupos (Segmentação de Frota/Local):</b><br />
+  <img src="https://raw.githubusercontent.com/Victoreduardo104949/adboard/main/docs/screenshots/04-grupos.png" alt="Grupos de Telas" width="100%" />
+</p>
 
-  <p><b>4. Configurações de Segurança e PIN de Quiosque:</b></p>
-  <img src="docs/screenshots/06-configuracoes.png" alt="Configurações do Modo Quiosque" width="100%" />
+<p align="center">
+  <b>4. Configurações de Segurança e PIN de Quiosque:</b><br />
+  <img src="https://raw.githubusercontent.com/Victoreduardo104949/adboard/main/docs/screenshots/06-configuracoes.png" alt="Configurações do Modo Quiosque" width="100%" />
+</p>
 
-  <p><b>5. Tela de Login do Administrador:</b></p>
-  <img src="docs/screenshots/01-login.png" alt="Tela de Login" width="100%" />
-</details>
+<p align="center">
+  <b>5. Tela de Login do Administrador:</b><br />
+  <img src="https://raw.githubusercontent.com/Victoreduardo104949/adboard/main/docs/screenshots/01-login.png" alt="Tela de Login" width="100%" />
+</p>
 
 ---
 
