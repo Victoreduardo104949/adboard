@@ -4,6 +4,7 @@ import type { Session } from '@supabase/supabase-js'
 import { supabase, supabaseConfigOk } from './lib/supabase'
 import Login from './screens/Login'
 import Dashboard from './screens/Dashboard'
+import MobilePlayerPreview from './screens/MobilePlayerPreview'
 
 function App() {
   const [session, setSession] = useState<Session | null>(null)
@@ -41,6 +42,7 @@ function App() {
 
   return (
     <Routes>
+      <Route path="/player-preview" element={<MobilePlayerPreview />} />
       <Route
         path="/login"
         element={isPreview ? <Navigate to="/" replace /> : <Login />}
