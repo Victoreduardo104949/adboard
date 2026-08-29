@@ -94,6 +94,10 @@ O ecossistema é composto por três pilares integrados:
 
 ### 💻 Painel Administrativo Web
 
+<p align="center">
+  <img src="docs/screenshots/02-conteudos.png" alt="Gestão de Conteúdos e Playlist" width="100%" />
+</p>
+
 | Tela / Módulo | Funcionalidades |
 |---|---|
 | **Login (`Login.tsx`)** | Autenticação administrativa com e-mail e senha via Supabase Auth. |
@@ -101,6 +105,28 @@ O ecossistema é composto por três pilares integrados:
 | **Grupos (`GroupManager.tsx`)** | Criação, edição e exclusão de grupos para segmentação geográfica ou de frotas (ex: *Lobby*, *Carros VIP*, *Restaurantes*). |
 | **Telas (`ScreenManager.tsx`)** | • Registro de novos tablets inserindo o código de 6 caracteres gerado pelo app.<br>• Atribuição de nome amigável ao dispositivo (ex: *Tablet Carro 01*).<br>• Vinculação da tela a um Grupo específico.<br>• Monitoramento em tempo real do status **Online/Offline** baseado no último heartbeat recebido. |
 | **Configurações (`SettingsPanel.tsx`)** | Definição e alteração do PIN de segurança de 6 dígitos para saída do modo quiosque nos tablets (armazenado apenas na forma de hash criptográfico). |
+
+#### 📸 Galeria de Telas do Painel
+
+<details>
+  <summary><b>Clique para expandir as capturas de tela do Painel Web</b></summary>
+  <br>
+
+  <p><b>1. Formulário de Novo Anúncio:</b></p>
+  <img src="docs/screenshots/03-novo-anuncio.png" alt="Formulário de Novo Anúncio" width="100%" />
+
+  <p><b>2. Gerenciamento de Telas (Tablets):</b></p>
+  <img src="docs/screenshots/05-telas.png" alt="Gerenciamento de Telas" width="100%" />
+
+  <p><b>3. Gerenciamento de Grupos (Segmentação):</b></p>
+  <img src="docs/screenshots/04-grupos.png" alt="Grupos de Telas" width="100%" />
+
+  <p><b>4. Configurações de PIN de Quiosque:</b></p>
+  <img src="docs/screenshots/06-configuracoes.png" alt="Configurações do Modo Quiosque" width="100%" />
+
+  <p><b>5. Tela de Login:</b></p>
+  <img src="docs/screenshots/01-login.png" alt="Tela de Login" width="100%" />
+</details>
 
 ---
 

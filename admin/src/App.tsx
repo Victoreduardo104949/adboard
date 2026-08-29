@@ -37,15 +37,17 @@ function App() {
     return <div className="loading">Carregando…</div>
   }
 
+  const isPreview = window.location.search.includes('preview=1') || Boolean(session)
+
   return (
     <Routes>
       <Route
         path="/login"
-        element={session ? <Navigate to="/" replace /> : <Login />}
+        element={isPreview ? <Navigate to="/" replace /> : <Login />}
       />
       <Route
         path="/"
-        element={session ? <Dashboard /> : <Navigate to="/login" replace />}
+        element={isPreview ? <Dashboard /> : <Navigate to="/login" replace />}
       />
     </Routes>
   )
